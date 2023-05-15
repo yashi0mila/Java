@@ -5,7 +5,7 @@ Data: 07.05.2023
 import java.util.Scanner;
 
 //Classe principal
-public class exercicio1
+public class exercicio1{
 
     //Método que será executado primeiro
      public static void main(String args []) {
@@ -16,7 +16,7 @@ public class exercicio1
     double n1, n2, n3, n4, media;
 
     //Inicialização das variáveis
-    media = n1 = n2 = n3 = n4 = 0;
+    media = n1 = n2 = n3 = n4 = 0.0;
 
     System.out.println("Digite a primeira nota: ");
     n1= leitor.nextDouble();
@@ -33,7 +33,7 @@ public class exercicio1
     //Calcula a média
     media = (n1+n2+n3+n4)/4;
 
-    //Mostra se o aluno passou, reprovou ou está de recuperação
+    //Mostra se o aluno passou ou está de recuperação
     if (media <=5){
         System.ou.println("Está de recuperação");
     }else{
@@ -42,8 +42,8 @@ public class exercicio1
 
     //Mostra a média
     System.out.println("A média é: " + media);
-        
     }
+}
 
 
 
